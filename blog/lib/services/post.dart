@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-final baseUrl = "https://news.itsfoss.com/wp-json/wp/v2/";
+final baseUrl = "#api";
 
 class Post {
   final String PostUrl = baseUrl + "posts?_embed";
